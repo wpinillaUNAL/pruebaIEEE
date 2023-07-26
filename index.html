@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+  <main>
+    <div class="grido">
+      <div class="explicacion">
+        <p>
+          El primer paso era revisar si el string de entrada contenía solo caracteres alfabéticos a-z o A-Z. Para esto usé una expresión regex. Después de esto, convertí todos los caracteres del string a mayúsculas usando la función toUpperCase(). Como ultimo paso de la primera sección, realizé un console.log() del string convertido; a continuación, realizé un loop para imprimir la letra correspondiente al string en la posición i, asegurandome de no repetir las letras de los bordes, esto lo hice para las dos columnas, la diferencia siendo que en la primera columna tomé el orden de la palabra como venía, y en la segunda lo invertí. De igual forma, entre estas dos letras imprimí el caratcter unicode \xa0 para poder mostrar los espacios en blanco necesarios entre estas dos letras. Por ultimo, volví a imprimir el string al final.
+          <br><br>
+          Después de esto, agregué el else en dado caso de que la condición inicial no se cumpliera, informando el porqué.
+        </p>
+      </div>
+      <div class="solucion">
+        <h1>Solución</h1>
+        <section class="imagenes">
+          <picture>
+            <img src="./imagenes/SolucionCodigo.png" alt="Imagen de la Solucion">
+          </picture>
+          <picture>
+            <img src="./imagenes/SolucionOutput.png" alt="">
+          </picture>
+        </section>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
